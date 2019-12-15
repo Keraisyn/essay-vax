@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hackathon!</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="row container.fluid">
+            <div class="col-md-12 container mt-5">
+                <h2 id="main-title">Essay Vax</h2>
+            </div>
+        </div>
+
+        <div class="Thingy container">
+        </div>
+
+        <div style="background-image: url('desk3.jpg');"></div>
+
+        <div class="container">
+            <textarea rows = 25 cols = 70 name="comment" id="text-area"></textarea>
+        </div>   
+        <div class="container">
+            <div class="NotebookCover">
+            </div>
+        </div>
+        <div class="img2">
+            <img src="Hackathon Logo.png" width="150" height="100">
+        </div>
+
+        <button type="button" class="btn btn-primary">Clear</button>
+        <button type="button" class="btn btn-success" id="vaccinate" onclick="unplagiarize()">Vaccinate</button>
+
+    </body>
+</html>
