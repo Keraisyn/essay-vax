@@ -28,7 +28,7 @@ def unplagiarize(text):
                 synonyms = get_synonyms(word[0])
 
                 if synonyms:
-                    text = text.replace(" " + word[0] + " ", " " + synonyms[0]" ")
+                    text = text.replace(" " + word[0] + " ", " " + synonyms[0] + " ")
 
     return text
 
